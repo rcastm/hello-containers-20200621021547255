@@ -14,7 +14,7 @@ if (process.env.PORT) {
 
 var app = express();
 app.get('/', function (req, res) {
-  res.send('Bienvenidos a IBM Cloud DevOps, primera aplicación en Contenedores. Vamos a usar Entrega y Desplieque continuo');
+  res.send('Primera aplicación JSON en Contenedores');
 });
 
 app.listen(PORT);
