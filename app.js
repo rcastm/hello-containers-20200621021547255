@@ -14,7 +14,8 @@ if (process.env.PORT) {
 
 var app = express();
 app.get('/', function (req, res) {
-  res.send('Aplicación DEMO en Kubernettes');
+  res.send('<p>some html</p>');
+  res.send('Gracias por participar en el Webinar Devops on Cloud de GBM. Aplicación DEMO JSON en Kubernettes');
 });
 
 app.listen(PORT);
