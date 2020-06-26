@@ -14,7 +14,7 @@ if (process.env.PORT) {
 
 var app = express();
 app.get('/', function (req, res) {
-   res.send('<H3>Aplicación DEMO JSON en Kubernettes</H3>');
+   res.send('<H3>Primera aplicación JSON en Contenedores</H3>');
 });
 
 app.listen(PORT);
